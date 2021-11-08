@@ -23,6 +23,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(onboardsdk)
 
+include(${CMAKE_BINARY_DIR}/conan_paths.cmake)
+
 set(CMAKE_VERBOSE_MAKEFILE OFF)
 
 set(DJIOSDK 0)
